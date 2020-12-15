@@ -35,15 +35,15 @@ implementation('com.guoyanggit.ibensdk:ibensdk:1.0.0')
         <!-- 语音相关Appkey -->
         <meta-data
             android:name="VOICE_APPKEY"
-            android:value="appid=5962f56e" />
+            android:value="这里是语音相关的appkey" />
         <!-- 人脸识别的Key -->
         <meta-data
             android:name="FACE_KEY"
-            android:value="3T4lfZw-RcIiuVFRmX3weUSWdRlMRMEL" />
+            android:value="这里是人脸识别相关的key" />
         <!-- 人脸识别的Secret -->
         <meta-data
             android:name="FACE_SECRET"
-            android:value="hwtABkUIi75juYFCZ-kJvj4lxsk01raH" />
+            android:value="这里是人脸识别相关的secret" />
             ...
     </application>
 
