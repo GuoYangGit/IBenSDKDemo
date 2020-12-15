@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ui.PrintActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onConnect"
+        android:text="连接打印机" />
+
+    <Button
+        android:id="@+id/disConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onDisConnect"
+        android:text="关闭打印机" />
+
+    <Button
+        android:id="@+id/printText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onPrintText"
+        android:text="打印文字" />
+
+    <Button
+        android:id="@+id/printImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onPrintImg"
+        android:text="打印图片" />
+
+    <Button
+        android:id="@+id/printImgGray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onPrintImgGray"
+        android:text="打印灰度图" />
+
+    <Button
+        android:id="@+id/cutPaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="切纸"
+        android:onClick="onCutPaper"/>
+</LinearLayout>

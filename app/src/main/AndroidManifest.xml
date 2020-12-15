@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ibensdkdemo">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IBenSDKDemo">
+        <!-- 语音相关Appkey -->
+        <meta-data
+            android:name="VOICE_APPKEY"
+            android:value="这里是语音相关的appkey" />
+        <!-- 人脸识别的Key -->
+        <meta-data
+            android:name="FACE_KEY"
+            android:value="这里是人脸识别相关的key" />
+        <!-- 人脸识别的Secret -->
+        <meta-data
+            android:name="FACE_SECRET"
+            android:value="这里是人脸识别相关的secret" />
+        <!-- activity -->
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.PrintActivity" />
+        <activity android:name=".ui.LightActivity" />
+        <activity android:name=".ui.IDCardActivity" />
+        <activity android:name=".ui.ActionActivity" />
+        <activity android:name=".ui.VoiceActivity" />
+        <activity android:name=".ui.TempActivity" />
+        <activity android:name=".ui.FaceActivity" />
+        <activity android:name=".ui.DisinfectActivity" />
+        <activity android:name=".ui.MapActivity" />
+    </application>
+
+</manifest>
